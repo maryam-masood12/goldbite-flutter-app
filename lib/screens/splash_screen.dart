@@ -18,16 +18,18 @@ class SplashScreen extends StatelessWidget {
         
         ),
 
-        Padding(
+       
+
+         Padding(
           padding: const EdgeInsets.only(top: 150),
           child: Container(
-            width: double.infinity,
+            width: 390,
             height: 600,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
           
               image: DecorationImage(
-                image: AssetImage("assets/images/glow.png"),
+                image: AssetImage("assets/images/Overlay+Blur.png"),
               fit: BoxFit.cover,
               ),
               
@@ -44,7 +46,7 @@ class SplashScreen extends StatelessWidget {
             height: 234.8,
             decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage("assets/images/brand_logo.png"),
+                  image: AssetImage("assets/images/brand_logo_1.png"),
                   fit: BoxFit.contain,
                 ),
               
@@ -54,20 +56,72 @@ class SplashScreen extends StatelessWidget {
           ),
           
           Padding(
-            padding: const EdgeInsets.only(left: 50,top: 750),
+            padding: const EdgeInsets.only(left: 63,top: 755),
             child: Container(
             width: 256,
-            height: 50,
+            height: 33,
             decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage("assets/images/indicator.png"),
+                  image: AssetImage("assets/images/divider.png"),
                   fit: BoxFit.contain,
                 ),
               
             )
             
             ),
-          )
+          ),
+
+          Padding(
+            padding: const EdgeInsets.only(left: 63,top: 755),
+            child: Container(
+            width: 74.66,
+            height: 33,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage("assets/images/Loading_Bar.png"),
+                  fit: BoxFit.contain,
+                ),
+              
+            )
+            
+            ),
+          ),
+
+          
+
+          Padding(
+            padding: const EdgeInsets.only(left: 64,top: 790),
+            child: Container(
+            width: 224,
+            height: 19,
+           
+           child: Text(
+            "INITIALIZING...",
+            style: const TextStyle(
+              fontSize: 12,
+              color: Color(0xFF404040),
+            ),
+          ),
+          ),
+          
+          ),
+          
+          Padding(
+            padding: const EdgeInsets.only(left: 270,top: 790),
+            child: Container(
+            width: 224,
+            height: 19,
+           
+           child: Text(
+            "EST.2S",
+            style: const TextStyle(
+              fontSize: 12,
+              color:  Color(0xFFF5A623),
+            ),
+          ),
+          ),
+          
+          ),
         ]
       ),
 
