@@ -29,7 +29,7 @@ class OnboardingScreen3 extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(left: 20, top: 20),
                       child: Container(
-                        width: 73,
+                        width: 85,
                         height: 24,
                         alignment: Alignment.center,
                         child: Text(

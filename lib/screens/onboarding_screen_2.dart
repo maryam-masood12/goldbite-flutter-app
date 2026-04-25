@@ -71,12 +71,19 @@ class OnboardingScreen2 extends StatelessWidget {
                           child: Container(
                             width: 350,
                             height: 64,
-                            decoration: const BoxDecoration(
-                              image: DecorationImage(
-                                image: AssetImage("assets/images/button_2.png"),
-                                fit: BoxFit.cover,
-                              ),
-                            ),
+                            decoration: BoxDecoration(
+  image: DecorationImage(
+    image: AssetImage("assets/images/Button_2.png"),
+    fit: BoxFit.cover,
+  ),
+  boxShadow: [
+    BoxShadow(
+      color: Colors.black38,
+      blurRadius: 8,
+      offset: Offset(0, 4),
+    ),
+  ],
+)
                           ),
                         ),
 
