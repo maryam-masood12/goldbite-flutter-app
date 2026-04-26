@@ -216,7 +216,7 @@ class SignUpScreen extends StatefulWidget {
                    focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
       borderSide: BorderSide(
-        color: Color.fromARGB(255, 91, 65, 21), // tumhara gold color ya jo chaho
+        color: Color.fromARGB(255, 158, 118, 50), 
         width: 2,
       ),
     ),
@@ -291,7 +291,7 @@ class SignUpScreen extends StatefulWidget {
                    focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
       borderSide: BorderSide(
-        color: Color.fromARGB(255, 91, 65, 21), // tumhara gold color ya jo chaho
+        color: Color.fromARGB(255, 158, 118, 50), 
         width: 2,
       ),
     ),
@@ -380,7 +380,7 @@ class SignUpScreen extends StatefulWidget {
                    focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
       borderSide: BorderSide(
-        color: Color.fromARGB(255, 91, 65, 21), // tumhara gold color ya jo chaho
+        color: Color.fromARGB(255, 158, 118, 50), 
         width: 2,
       ),
     ),
@@ -469,7 +469,7 @@ class SignUpScreen extends StatefulWidget {
                    focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
       borderSide: BorderSide(
-        color: Color.fromARGB(255, 91, 65, 21), 
+        color: Color.fromARGB(255, 158, 118, 50),
         width: 2,
       ),
     ),
@@ -528,12 +528,12 @@ Padding(
     height: 69,
    
     decoration: BoxDecoration(
-      color: Color(0xFFF5A623), // background
+      color: Color(0xFFF5A623), 
       borderRadius: BorderRadius.circular(8),
   
       boxShadow: [
         BoxShadow(
-          color: Color(0x33F5A623), // #F5A62333
+          color: Color(0x33F5A623), 
           blurRadius: 30,
           offset: Offset(0, 8),
         ),
