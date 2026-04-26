@@ -216,8 +216,8 @@ class SignUpScreen extends StatefulWidget {
                    focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
       borderSide: BorderSide(
-        color: Color.fromARGB(255, 158, 118, 50), 
-        width: 2,
+        color: Color.fromARGB(255, 223, 173, 87), 
+        width: 3,
       ),
     ),
                         ),),),
@@ -291,8 +291,8 @@ class SignUpScreen extends StatefulWidget {
                    focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
       borderSide: BorderSide(
-        color: Color.fromARGB(255, 158, 118, 50), 
-        width: 2,
+        color: Color.fromARGB(255, 233, 161, 37), 
+        width: 3,
       ),
     ),
                         ),),),
@@ -380,8 +380,8 @@ class SignUpScreen extends StatefulWidget {
                    focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
       borderSide: BorderSide(
-        color: Color.fromARGB(255, 158, 118, 50), 
-        width: 2,
+        color: Color.fromARGB(255, 233, 161, 37), 
+        width: 3,
       ),
     ),
                         ),),),
@@ -469,8 +469,8 @@ class SignUpScreen extends StatefulWidget {
                    focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
       borderSide: BorderSide(
-        color: Color.fromARGB(255, 158, 118, 50),
-        width: 2,
+        color: Color.fromARGB(255, 233, 161, 37), 
+        width: 3,
       ),
     ),
                         ),),),
