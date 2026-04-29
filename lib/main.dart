@@ -4,7 +4,9 @@ import 'package:flutter_food_app/screens/sign_up_screen.dart';
 // import 'screens/onboarding_screen_1.dart';
 // import 'screens/onboarding_screen_2.dart';
 // import 'screens/onboarding_screen_3.dart';
-   import 'screens/sign_up_screen.dart';
+  // //  import 'screens/sign_up_screen.dart';
+      import 'screens/login_screen.dart';
+ 
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +24,9 @@ class MyApp extends StatelessWidget {
       // home: OnboardingScreen1(),
       // home: OnboardingScreen2(),
       //  home: OnboardingScreen3(),
-      home:SignUpScreen(),
+      // home:SignUpScreen(),
+        home:LoginScreen(),
+       
       
       
     );
